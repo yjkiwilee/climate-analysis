@@ -1,5 +1,7 @@
 """ Climate Analysis Tools """
 
+# This is a new comment.
+
 import sys
 import temp_conversion
 import signal
@@ -27,5 +29,3 @@ for line in climate_data:
             kelvin = temp_conversion.fahr_to_kelvin(fahr)
 
             print(str(celsius)+", "+str(kelvin))
-
-# TODO(smangham): Add call fo proces rainfall
